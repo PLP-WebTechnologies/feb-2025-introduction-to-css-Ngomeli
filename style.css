@@ -1,0 +1,46 @@
+/* style.css */
+
+/* Selectors */
+
+body {
+    font-family: 'Arial', sans-serif; /* Default font */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333333; /* Dark text color */
+    text-align: center;
+}
+
+/* Class Selector */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* ID Selector */
+#main-image {
+    display: block;
+    margin: 20px auto;
+    width: 50%; /* Resize image */
+    border: 5px solid #333333; /* Border around image */
+}
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Padding, Margin, and Border */
+p {
+    margin: 15px 0; /* Top and bottom margin for paragraphs */
+    padding: 10px;  /* Padding inside paragraph */
+    border: 1px solid #ddd; /* Border around paragraphs */
+    border-radius: 5px; /* Rounded corners */
+}
